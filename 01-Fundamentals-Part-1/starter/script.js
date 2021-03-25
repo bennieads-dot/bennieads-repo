@@ -127,7 +127,7 @@ console.log(`23` > `18`)*/
 
 //Truthy and Falsey values
 //5 falsey values: 0, '', undefined, null NaN... and false
-
+/*
 console.log(Boolean(0))
 console.log(Boolean(undefined))
 console.log(Boolean('Ben'))
@@ -140,3 +140,80 @@ if (money) {
 } else {
     console.log("Grab a job")
 }
+*/
+/*
+const age = 18;
+if (age === 18) console.log(`old enough`);
+
+if (`18` == 18) console.log('This works')
+
+const fav = Number(prompt('Whats your favorite number?'));
+
+if (fav === 23) {
+    console.log('23 is cool')
+} else if (fav === 7) {
+    console.log('7 is cool')
+} else {
+    console.log('fall through')
+}*/
+//Coding challenge 3
+/*
+const koalas = (109 + 95 + 96) / 3;
+const dolphins = (97 + 112 + 91) / 3;
+
+console.log(koalas);
+console.log(dolphins);
+
+if ((dolphins < koalas) && koalas >= 100) {
+    console.log(`Koalas win with ${koalas} points`);
+} else if ((koalas < dolphins) && dolphins >= 100) {
+    console.log(`Koalas win with ${dolphins} points`);
+} else if ((koalas === dolphins) && koalas >= 100) {
+    console.log(`both teams tie with ${koalas} points`);
+} else {
+    console.log('No winner')
+}*/
+
+/*
+//switch statement
+const day = 'friday';
+
+switch (day) {
+    case 'monday':
+        console.log(`monday case`);
+        console.log(`go to coding meetup`);
+        break;
+    case 'tuesday':
+        console.log(`Prepare theory vids, tueday`);
+        break;
+    case 'wednesday':
+    case 'thursday':
+        console.log(`write code`)
+        break;
+    case `friday`:
+        console.log('record vids')
+        break;
+    case 'saturday':
+    case 'sunday':
+        console.log(`enjoy weekend`)
+        break;
+    default:
+        console.log('not a valid day')
+}
+*/
+//statements vs expressions
+/*
+if (23 > 10{
+    const str = 'b23 is igger';
+}*/
+
+//ternary operator
+//expressions produce values
+const age = 23;
+age >= 18 ? console.log("I like to drink wine") :
+    console.log("I like to drink water");
+
+
+const drink = age >= 18 ? "wine" : "water";
+
+console.log(`I like to drink ${drink}`);

@@ -17,3 +17,9 @@ let desc = "I live in " + country + " which is in " + continent + " and has " + 
 console.log(desc);*/
 
 //coding challenge 2
+
+const bill = 400;
+
+const tip = (bill >= 50 && bill <= 300) ? bill * .15 : bill * .2;
+
+console.log(`The bill is ${bill} and is ${tip} total bill is ${tip + bill}`);
